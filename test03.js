@@ -41,3 +41,12 @@ data2++
 ++data2
 data2++
 console.log(data2);
+
+//nullish coalescing operator ?? ใช้ตรวจสอบ null หรือ undifined
+let aa = null
+let bb
+let cc = 'dti-sau'
+console.log('------------')
+console.log(aa ?? 'hello')
+console.log(bb ?? 'hi')
+console.log(cc ?? 'hey')
